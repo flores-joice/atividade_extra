@@ -107,8 +107,11 @@ body {
 }
 
 .section-sobre_conteudo {
-    text-align: left;
-    
+    text-align: left;  
+}
+
+.section-sobre_conteudo > p {
+    color: gray;
 }
 
 .section-passos {
@@ -121,13 +124,85 @@ body {
     width: 300px;
     text-align: center;
     padding: 0 20px;
+    color: gray;
+}
+
+.passo-conteudo_1 {
+    width: 305px;
+}
+
+.h3 {
+    padding: 0;
 }
 
 .passo {
     align-items: center;
 }
 
-.h2 {
+.section-servicos {
+    justify-content: center;
+    padding: 30px 200px 60px 200px;
+    background-image: url(../img/bg-servicos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.container-servicos {
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.card-servicos {
+    background-color: rgb(139, 214, 243);
+    color: white;
+    margin: 0 30px;
+    width: 350px;
+    padding: 40px 30px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-info {
+    background-image: url(../img/bg-numeros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.section-numeros {
+    justify-content: center;
+   
+}
+
+.numeros {
+    width: 250px;
+    padding: 0 30px;
+    text-align: center;
     
 }
+.numeros-h2 {
+    color: rgb(243, 243, 88);
+    font-size: 30px;
+}
+
+.section-form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    width: 500px;
+    align-content: space-between
+
+}
+
+
 
