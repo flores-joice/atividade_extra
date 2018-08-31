@@ -21,7 +21,7 @@ body {
 .nav {
     position: fixed;
     width: 100%;   
-    padding: 15px; 
+    padding: 5px 15px; 
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .nav-menu_item {
-    padding: 3px 15px;
+    padding: 1px 15px;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -68,7 +68,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 570px;
+    height: 580px;
     color: white;
 }
 
@@ -88,6 +88,46 @@ body {
     font-size: 16px;
     color: rgb(75, 66, 66);
     text-transform: uppercase;
+    
+}
+
+.section1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.section-sobre {
+    width: 500px;
+    align-items: center;
+}
+
+.section-sobre_imagem {
+    padding: 0 20px;
+}
+
+.section-sobre_conteudo {
+    text-align: left;
+    
+}
+
+.section-passos {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.passo-conteudo {
+    width: 300px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.passo {
+    align-items: center;
+}
+
+.h2 {
     
 }
 
